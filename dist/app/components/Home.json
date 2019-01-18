@@ -42,15 +42,16 @@
                 {
                   "attributes": {
                     "twx-widget": "",
-                    "widget-id": "imageTarget-1",
-                    "target-id": "5ef7be87-6bf5-455f-8874-875c56e27fc0",
+                    "widget-id": "imageTarget-2",
+                    "target-id": "e0a28bbd-1d2f-414f-a3bb-24de3e60d0f1",
                     "tracking-indicator": "true",
-                    "widget-name": "imageTarget-1",
-                    "url": "Uploaded/psfk-logo-p-01.png",
+                    "widget-name": "cookie-Target",
+                    "trackingacquired-expression": "getDataFromTarget()",
+                    "url": "Uploaded/IMG_20190118_132048173.jpg",
                     "width": "0.0254",
-                    "x": "0.1120",
+                    "x": "0.1002",
                     "y": "0.0000",
-                    "z": "0.1372",
+                    "z": "0.1289",
                     "rx": "-90.00",
                     "ry": "0.00",
                     "rz": "0.00"
@@ -163,6 +164,14 @@
                                       "name": "twx-databind"
                                     }
                                   ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "scan-1",
+                                    "widget-name": "scan-1"
+                                  },
+                                  "name": "twx-barcode-scanner"
                                 }
                               ]
                             }
@@ -179,17 +188,7 @@
                           "name": "twx-overlay-container",
                           "children": [
                             {
-                              "name": "twx-container-content",
-                              "children": [
-                                {
-                                  "attributes": {
-                                    "twx-widget": "",
-                                    "widget-id": "scan-1",
-                                    "widget-name": "scan-1"
-                                  },
-                                  "name": "twx-barcode-scanner"
-                                }
-                              ]
+                              "name": "twx-container-content"
                             }
                           ]
                         },

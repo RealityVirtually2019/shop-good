@@ -32,6 +32,16 @@
         "value": ""
       },
       "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "data",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "data",
+        "value": "hello!"
+      },
+      "name": "twx-app-param"
     }
   ],
   "name": "twx-app-mdl"

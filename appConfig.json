@@ -1,8 +1,8 @@
 {
-  "name": "ShopGood v1",
+  "name": "shop-good",
   "projectType": "AR",
   "viewType": "ar",
-  "fileName": "ShopGood_v1",
+  "fileName": "shop-good",
   "thingworxServer": "https://1898c2b1bcb3955a.studio-trial.vuforia.io",
   "viewTemplateFileName": "home-ar.json",
   "state": {
