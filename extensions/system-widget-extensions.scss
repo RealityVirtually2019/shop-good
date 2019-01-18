@@ -839,14 +839,6 @@ twx-image2 {
 		background-color: transparent;
 	}
 }
-twx-image {
-	display: block;
-}
-
-.img-placeholder {
-	height: 40px;
-	opacity: .5;
-}
 .xsmall{
     font-size: 0.5em;
 }
@@ -882,6 +874,14 @@ twx-label span{
 	display: inline-block;
 }
 
+twx-image {
+	display: block;
+}
+
+.img-placeholder {
+	height: 40px;
+	opacity: .5;
+}
 .mapContainer {
 	min-height: 40px;
 	text-align: center;
