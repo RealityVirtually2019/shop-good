@@ -1,0 +1,13 @@
+{
+  "filePath": "app/resources/Uploaded/psfk-logo-p-01.png",
+  "destination": "app/resources/_generated_/itg",
+  "conversionInfo": {
+    "targets": {
+      "5ef7be87-6bf5-455f-8874-875c56e27fc0": {
+        "targetSize": "0.0254",
+        "imageTargetId": "imageTarget-1",
+        "referencedByView": "Home"
+      }
+    }
+  }
+}

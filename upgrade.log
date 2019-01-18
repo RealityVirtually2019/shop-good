@@ -1,0 +1,21 @@
+[2019-01-18T17:23:12.742Z] debug: [twx-studio:upgrade:ShopGood_v1] Begin upgrade of project ShopGood_v1
+[2019-01-18T17:23:12.742Z] info: [twx-studio:upgrade:ShopGood_v1] Upgrading project ShopGood v1 /Users/mischaabakumova/Documents/VuforiaStudio/Projects/ShopGood_v1 from 1.34.1501 to 8.3.8.4231 (1.34.1501)
+[2019-01-18T17:23:12.745Z] debug: [twx-studio:upgrade:ShopGood_v1] Make sure there are not any stale files lying around
+[2019-01-18T17:23:12.746Z] debug: [twx-studio:upgrade:ShopGood_v1] Create .gitignore for project dir
+[2019-01-18T17:23:12.746Z] debug: [twx-studio:upgrade:ShopGood_v1] Copying /src/**/* to project, overwrite=false
+[2019-01-18T17:23:12.748Z] debug: [twx-studio:upgrade:ShopGood_v1] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2019-01-18T17:23:12.810Z] debug: [twx-studio:upgrade:ShopGood_v1] Copy of project files complete
+[2019-01-18T17:23:12.810Z] debug: [twx-studio:upgrade:ShopGood_v1] Updating version to  8.3.8.4231 (1.34.1501)
+[2019-01-18T17:23:12.810Z] debug: [twx-studio:upgrade:ShopGood_v1] onupgrade sucessful, now build the project
+[2019-01-18T17:23:12.810Z] debug: [twx-studio:upgrade:ShopGood_v1] BEGIN buildApp ShopGood_v1_1547832192810
+[2019-01-18T17:23:12.810Z] debug: [twx-studio:upgrade:ShopGood_v1] write settings
+[2019-01-18T17:23:12.811Z] debug: [twx-studio:upgrade:ShopGood_v1] copy runtime extensions
+[2019-01-18T17:23:13.030Z] debug: [twx-studio:upgrade:ShopGood_v1] packageThemeSet
+[2019-01-18T17:23:13.779Z] debug: [twx-studio:upgrade:ShopGood_v1] onBuild
+[2019-01-18T17:23:13.779Z] info: [twx-studio:upgrade:ShopGood_v1] Building ves-ar-extension app: ShopGood v1
+[2019-01-18T17:23:13.785Z] debug: [twx-studio:upgrade:ShopGood_v1] pathDir /Users/mischaabakumova/Documents/VuforiaStudio/Projects/ShopGood_v1
+[2019-01-18T17:23:13.786Z] debug: [twx-studio:upgrade:ShopGood_v1] scaffoldDir /Applications/Vuforia Studio.app/Contents/Resources/node_modules/ves-ar-extension/src/src-scaffold
+[2019-01-18T17:23:13.786Z] debug: [twx-studio:upgrade:ShopGood_v1] copySrc
+[2019-01-18T17:23:13.929Z] debug: [twx-studio:upgrade:ShopGood_v1] buildApp
+[2019-01-18T17:23:14.083Z] debug: [twx-studio:upgrade:ShopGood_v1] END buildApp ShopGood_v1_1547832192810
+[2019-01-18T17:23:14.083Z] debug: [twx-studio:upgrade:ShopGood_v1] Build succeeded.
