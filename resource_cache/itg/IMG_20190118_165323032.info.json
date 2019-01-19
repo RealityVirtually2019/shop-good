@@ -1,0 +1,13 @@
+{
+  "filePath": "app/resources/Uploaded/IMG_20190118_165323032.jpg",
+  "destination": "app/resources/_generated_/itg",
+  "conversionInfo": {
+    "targets": {
+      "e0a28bbd-1d2f-414f-a3bb-24de3e60d0f1": {
+        "targetSize": "0.0254",
+        "imageTargetId": "cereal-Target",
+        "referencedByView": "Home"
+      }
+    }
+  }
+}

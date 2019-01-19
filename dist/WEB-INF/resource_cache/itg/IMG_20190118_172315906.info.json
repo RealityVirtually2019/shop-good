@@ -1,0 +1,13 @@
+{
+  "filePath": "app/resources/Uploaded/IMG_20190118_172315906.jpg",
+  "destination": "app/resources/_generated_/itg",
+  "conversionInfo": {
+    "targets": {
+      "cf8ee1f1-b821-465c-938b-aae3283322e7": {
+        "targetSize": "0.0254",
+        "imageTargetId": "imageTarget-1",
+        "referencedByView": "view-2"
+      }
+    }
+  }
+}

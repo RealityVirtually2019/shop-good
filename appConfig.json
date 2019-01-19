@@ -6,7 +6,7 @@
   "thingworxServer": "https://1898c2b1bcb3955a.studio-trial.vuforia.io",
   "viewTemplateFileName": "home-ar.json",
   "state": {
-    "orientation": "landscape"
+    "orientation": "portrait"
   },
   "targets": {
     "phone": {
@@ -48,8 +48,8 @@
   },
   "device": {
     "name": "iphone",
-    "width": "667",
-    "height": "375"
+    "width": "375",
+    "height": "667"
   },
   "mainNavigationMenuStyle": "leftSideMenu",
   "resourceDirectory": "src/phone/resources",

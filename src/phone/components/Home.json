@@ -76,6 +76,31 @@
                     "rz": "0.00"
                   },
                   "name": "twx-dt-label"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-1",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-1",
+                    "text": "300",
+                    "src": "Default/vu_gauge1.svg",
+                    "fontsize": "40px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "64",
+                    "texty": "94",
+                    "scale": "0.0600",
+                    "x": "0.0026",
+                    "y": "0.0027",
+                    "z": "0.0139",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "128",
+                    "canvaswidth": "128",
+                    "billboard": "false"
+                  },
+                  "name": "twx-dt-sensor"
                 }
               ]
             }
@@ -112,23 +137,17 @@
                             "widget-id": "button-1",
                             "widget-name": "button-1"
                           },
-                          "name": "twx-button",
-                          "children": [
-                            {
-                              "attributes": {
-                                "eventbind-id": "eb-1547833623873",
-                                "source-type": "widget",
-                                "source-label": "Button",
-                                "source-name": "button-1",
-                                "source-event": "click",
-                                "handler-type": "ui",
-                                "handler-name": "scan-1",
-                                "handler-service": "startScan",
-                                "handler": "app.view[\"Home\"].wdg[\"scan-1\"].svc.startScan"
-                              },
-                              "name": "twx-eventbind"
-                            }
-                          ]
+                          "name": "twx-button"
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "gauge-1",
+                            "state-format-value": "value",
+                            "widget-name": "gauge-1",
+                            "value": "60"
+                          },
+                          "name": "twx-gauge"
                         }
                       ]
                     }
@@ -166,31 +185,7 @@
                                     "state-format-value": "text",
                                     "widget-name": "label-1"
                                   },
-                                  "name": "twx-label",
-                                  "children": [
-                                    {
-                                      "attributes": {
-                                        "databind-id": "db-1547833608552",
-                                        "source-type": "ui",
-                                        "source-label": "Scan",
-                                        "source-name": "scan-1",
-                                        "source-item-type": "property",
-                                        "source-item-name": "scannedValue",
-                                        "binding-type": "widget_property",
-                                        "from-expression": "app.view['Home'].wdg['scan-1']['scannedValue']",
-                                        "to-property": "text"
-                                      },
-                                      "name": "twx-databind"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "attributes": {
-                                    "twx-widget": "",
-                                    "widget-id": "scan-1",
-                                    "widget-name": "scan-1"
-                                  },
-                                  "name": "twx-barcode-scanner"
+                                  "name": "twx-label"
                                 }
                               ]
                             }
@@ -207,7 +202,63 @@
                           "name": "twx-overlay-container",
                           "children": [
                             {
-                              "name": "twx-container-content"
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "list-1",
+                                    "widget-name": "list-1"
+                                  },
+                                  "name": "twx-list"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "repeater-1",
+                                    "widget-name": "repeater-1",
+                                    "is-widget-repeater": "true"
+                                  },
+                                  "name": "twx-repeater",
+                                  "children": [
+                                    {
+                                      "name": "twx-repeater-content"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "textArea-1",
+                                    "widget-name": "textArea-1",
+                                    "text": "Air Quality: 5"
+                                  },
+                                  "name": "twx-textarea"
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "dataGrid-1",
+                                    "widget-name": "dataGrid-1",
+                                    "is-widget-repeater": "true"
+                                  },
+                                  "name": "twx-data-grid",
+                                  "children": [
+                                    {
+                                      "name": "twx-repeater-content"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "hyperlink-1",
+                                    "widget-name": "hyperlink-1",
+                                    "url": "https://media.giphy.com/media/uWBgDgyBk9lWLXGAC0/giphy.gif"
+                                  },
+                                  "name": "twx-hyperlink"
+                                }
+                              ]
                             }
                           ]
                         },
@@ -301,23 +352,7 @@
                                                     "widget-name": "button-2",
                                                     "click-expression": "myfunction()"
                                                   },
-                                                  "name": "twx-button",
-                                                  "children": [
-                                                    {
-                                                      "attributes": {
-                                                        "eventbind-id": "eb-1547834415868",
-                                                        "source-type": "widget",
-                                                        "source-label": "Button",
-                                                        "source-name": "button-2",
-                                                        "source-event": "click",
-                                                        "handler-type": "ui",
-                                                        "handler-name": "scan-1",
-                                                        "handler-service": "startScan",
-                                                        "handler": "app.view[\"Home\"].wdg[\"scan-1\"].svc.startScan"
-                                                      },
-                                                      "name": "twx-eventbind"
-                                                    }
-                                                  ]
+                                                  "name": "twx-button"
                                                 }
                                               ]
                                             }

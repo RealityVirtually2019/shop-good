@@ -28,8 +28,11 @@
                     "widget-id": "imageTarget-1",
                     "target-id": "cf8ee1f1-b821-465c-938b-aae3283322e7",
                     "tracking-indicator": "true",
+                    "widget-name": "imageTarget-1",
+                    "url": "Uploaded/IMG_20190118_172315906.jpg",
                     "width": "0.0254",
-                    "rx": "-90"
+                    "rx": "-90",
+                    "ry": "-90"
                   },
                   "name": "twx-dt-target-image"
                 }
