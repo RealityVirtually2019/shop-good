@@ -375,26 +375,6 @@ twx-view-footer {
 .button {
   margin: 0px; }
 
-.card {
-  min-height: 40px; }
-
-[scrollable="true"][original-widget="twx-card"],
-[data-scrollable="true"][original-widget="twx-card"] {
-  display: flex;
-  width: 100%; }
-  [scrollable="true"][original-widget="twx-card"] twx-widget-content,
-  [data-scrollable="true"][original-widget="twx-card"] twx-widget-content {
-    width: 100%;
-    display: flex; }
-  [scrollable="true"][original-widget="twx-card"] .card,
-  [data-scrollable="true"][original-widget="twx-card"] .card {
-    flex: 1;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch; }
-
-.card.has-header-footer > twx-container-content {
-  height: auto; }
-
 .row .col {
   -webkit-display: flex;
   display: flex;
@@ -575,10 +555,25 @@ twx-widget-property {
 #canvas-contents .ui-droppable-hover .twx-fragment {
   overflow: visible; }
 
-.twx-fragment-panel {
-  overflow: auto;
-  width: 100%;
-  height: 100%; }
+.card {
+  min-height: 40px; }
+
+[scrollable="true"][original-widget="twx-card"],
+[data-scrollable="true"][original-widget="twx-card"] {
+  display: flex;
+  width: 100%; }
+  [scrollable="true"][original-widget="twx-card"] twx-widget-content,
+  [data-scrollable="true"][original-widget="twx-card"] twx-widget-content {
+    width: 100%;
+    display: flex; }
+  [scrollable="true"][original-widget="twx-card"] .card,
+  [data-scrollable="true"][original-widget="twx-card"] .card {
+    flex: 1;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; }
+
+.card.has-header-footer > twx-container-content {
+  height: auto; }
 
 /*design-time*/
 twx-gridlayout[even-rows="true"] {
@@ -638,6 +633,11 @@ ion-view[hasgridevenrows="true"] ion-content .gridLayout twx-container-content .
 .twx-2d-overlay .gridLayout .col {
   pointer-events: none; }
 
+.twx-fragment-panel {
+  overflow: auto;
+  width: 100%;
+  height: 100%; }
+
 .twxHyperlink {
   display: inline-block;
   margin: 0px; }
@@ -657,44 +657,6 @@ twx-image2 {
   align-items: flex-start; }
   .imgAlignContainer > img {
     background-color: transparent; }
-
-.xsmall {
-  font-size: 0.5em; }
-
-.small {
-  font-size: 0.75em; }
-
-.medium {
-  font-size: 1em; }
-
-.large {
-  font-size: 1.5em; }
-
-.xlarge {
-  font-size: 2em; }
-
-[original-widget="twx-label"] {
-  display: inline-block; }
-
-.labelWidget {
-  display: block;
-  padding: 0px; }
-  .labelWidget:empty {
-    display: none; }
-  .labelWidget.noWrap {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden; }
-
-twx-label span {
-  display: inline-block; }
-
-twx-image {
-  display: block; }
-
-.img-placeholder {
-  height: 40px;
-  opacity: .5; }
 
 .mapContainer {
   min-height: 40px;
@@ -815,6 +777,44 @@ twx-widget-property {
 .range input::-ms-tooltip {
   display: none; }
 
+twx-image {
+  display: block; }
+
+.img-placeholder {
+  height: 40px;
+  opacity: .5; }
+
+.xsmall {
+  font-size: 0.5em; }
+
+.small {
+  font-size: 0.75em; }
+
+.medium {
+  font-size: 1em; }
+
+.large {
+  font-size: 1.5em; }
+
+.xlarge {
+  font-size: 2em; }
+
+[original-widget="twx-label"] {
+  display: inline-block; }
+
+.labelWidget {
+  display: block;
+  padding: 0px; }
+  .labelWidget:empty {
+    display: none; }
+  .labelWidget.noWrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+
+twx-label span {
+  display: inline-block; }
+
 .repeater {
   display: flex;
   flex-direction: column;
@@ -872,6 +872,24 @@ twx-tab-designer {
   width: 100%;
   padding: 0px; }
 
+.chart-placeholder {
+  height: 186px;
+  background: #fafafa;
+  margin: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .chart-placeholder .chart-placeholder-text {
+    color: #ccc;
+    text-align: center;
+    display: inline-block;
+    padding: 0px 40px; }
+
+.chart-size {
+  max-height: 75vh;
+  max-width: 75vw; }
+
 .twx-tabs {
   display: flex;
   padding: 0px; }
@@ -925,24 +943,6 @@ twx-tabs .twx-tabs-designer {
   display: block;
   resize: none;
   width: 100%; }
-
-.chart-placeholder {
-  height: 186px;
-  background: #fafafa;
-  margin: 8px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .chart-placeholder .chart-placeholder-text {
-    color: #ccc;
-    text-align: center;
-    display: inline-block;
-    padding: 0px 40px; }
-
-.chart-size {
-  max-height: 75vh;
-  max-width: 75vw; }
 
 twx-toolbar {
   display: block; }

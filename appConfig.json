@@ -17,6 +17,13 @@
           "showInMainMenu": true,
           "viewType": "ar",
           "title": "Home"
+        },
+        {
+          "name": "view-2",
+          "fileName": "view-2",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "view-2"
         }
       ],
       "images": []

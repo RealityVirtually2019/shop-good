@@ -25,38 +25,57 @@
                 {
                   "attributes": {
                     "twx-widget": "",
-                    "widget-id": "3DLabel-1",
-                    "state-format-value": "text",
-                    "widget-name": "3DLabel-1",
-                    "text": "Sample Image",
-                    "scale": "1.0000",
-                    "x": "0.0184",
-                    "y": "0.0538",
-                    "z": "0.0267",
-                    "rx": "-92.61",
-                    "ry": "0.00",
-                    "rz": "0.00"
-                  },
-                  "name": "twx-dt-label"
-                },
-                {
-                  "attributes": {
-                    "twx-widget": "",
                     "widget-id": "imageTarget-2",
                     "target-id": "e0a28bbd-1d2f-414f-a3bb-24de3e60d0f1",
                     "tracking-indicator": "true",
-                    "widget-name": "cookie-Target",
+                    "widget-name": "cereal-Target",
                     "trackingacquired-expression": "getDataFromTarget()",
-                    "url": "Uploaded/IMG_20190118_132048173.jpg",
+                    "url": "Uploaded/IMG_20190118_165323032.jpg",
                     "width": "0.0254",
-                    "x": "0.1002",
-                    "y": "0.0000",
-                    "z": "0.1289",
                     "rx": "-90.00",
                     "ry": "0.00",
                     "rz": "0.00"
                   },
                   "name": "twx-dt-target-image"
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-1",
+                    "widget-name": "bear-Model",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/BlackBear.pvz",
+                    "scale": "0.0015",
+                    "x": "0.0297",
+                    "y": "-0.0032",
+                    "z": "0.0157",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DLabel-2",
+                    "state-format-value": "text",
+                    "widget-name": "3DLabel-2",
+                    "text": "Impact",
+                    "scale": "0.1000",
+                    "x": "0.0253",
+                    "y": "0.0000",
+                    "z": "-0.0154",
+                    "rx": "-90.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-label"
                 }
               ]
             }

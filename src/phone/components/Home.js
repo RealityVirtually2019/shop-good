@@ -16,6 +16,6 @@
 
 
 $scope.getDataFromTarget = function() {
-   $scope.view.wdg["label-1"]["text"] = "hello, world" 
+   //$scope.view.wdg["model-1"]["visible"] = true
   //$scope.view.wdg["3DLabel-1"]["text"]="food is good";
 }
